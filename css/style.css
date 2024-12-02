@@ -12302,3 +12302,15 @@ html {
   font-style: italic;
   color: #6c757d;
 }
+
+var { 
+  font-style: italic;
+}
+
+th, td {
+  padding-right: 40px;
+}
+
+tr > * + * {
+  padding-left: 2em;
+}
