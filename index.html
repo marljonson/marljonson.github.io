@@ -1,183 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Marl Jonson | Home</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Custom Google font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/style.css" rel="stylesheet" />
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z2S439WHWS"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'G-Z2S439WHWS');
-    </script>
-    <script defer src="script.js"></script>
-  </head>
-  <body class="d-flex flex-column h-100">
-    <!-- <div id="loader"></div> -->
-    <main class="flex-shrink-0">
-      <!-- Navigation-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-        <div class="container px-5">
-          <a class='navbar-brand' href='/'>
-            <img class="profile-img" src="assets/wordmark.png" alt="pic" width="180" height="90" />
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-              <li class="nav-item">
-                <a class='nav-link' href='index.html'>home</a>
-              </li>
-              <li class="nav-item">
-                <a class='nav-link' href='about.html'>about me</a>
-              </li>
-              <li class="nav-item">
-                <a class='nav-link' href='resources.html'>my resources</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- Header-->
-      <header class="py-1">
-        <div class="container px-5 pb-5">
-          <div class="row gx-5 align-items-center">
-            <div class="col-xxl-6">
-              <!-- Header text content-->
-              <div class="text-center text-xxl-start">
-                <br>
-                <br>
-                <h1 class="display-3 fw-bolder mb-4">
-                  <span class="text-gradient d-inline">Hi, I'm Marl</span>
-                </h1>
-                <div class="fs-3 fw-light text-muted">
-                    <span>
-                        An aspiring software engineer learning how to
-                    </span>
-                    <span>
-                        <span id="output">program.</span>
-                    </span>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marljonson.com</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <div class="card">
+        <div class="two-split">
+            <div>
+                <div class="title">
+                    Marl Jonson
                 </div>
-                
-                <!--
-                <script>
-                const possibles = ['program.', 'build websites.'];
-                var b = 0;
-                var changeable = possibles[b];
-                var i = 0;
-                var txt = document.getElementById("output").textContent;
-                var speed = 50;
-                window.onload = function()
-                {
-                    typeWriter();
-                }
-                function typeWriter()
-                {                
-                    while (i < changeable.length)
-                    {
-                        document.getElementById("output").textContent += changeable.charAt(i);
-                        i++;
-                    }
-
-                    
-                    while (i > 0)
-                    {
-                        document.getElementById("output").textContent = document.getElementById("output").textContent.substring(0, document.getElementById("output").textContent.length - 2);
-                        i--;
-                        setTimeout(typeWriter, speed);
-                    }
-                        
-                    
-                    if (b < possibles.length - 1) {
-                        b++;
-                        changeable = possibles[b];
-                    } else {
-                        b = 0;
-                        changeable = possibles[b];
-                    }
-                }
-                </script>
-                -->
-
-                <div class="fs-5 fw-light text-muted">
-                  <br>I'm Marl Jonson, and I'm pursuing a B.S. in computer science at San Jose State University. I'm also researching machine learning and its applications in the fields of healthcare and natural phenomena. <br>
-                  <br>I'm passionate about expanding my professional experience while serving my community through innovation. Coding has endless applications and an infinite freedom for creativity. <br>
-                  <br>I'm looking to hold an internship or research position in the summer of 2025.
+                <div class="text">
+                    Computer science student at San Jose State University
+                    <br>
+                    expected grad: May 2028
                 </div>
-              </div>
             </div>
-            <div class="col-xxl-5 offset-xxl-1">
-                <!-- Header text content-->
-                <div id="frontlines" class="fs-2 fw-normal mb-4">
-                    <span class="text-gradient d-inline">
-                        <!--
-                          > projects (WIP)<br>
-                          > experience (WIP)<br>
-                          > resume (WIP)<br>
-                          > fun (WIP)<br><br>
-                        -->
-                        > <a href="about.html">about me</a><br>
-                        > <a href="resources.html">personal resources</a><br>
-                    </span>
-                    <!--
-                    <p id="demo"></p>
-                    <script>
-                    window.onload = function() {
-                        typeWriter();
-                    }
-                    var i = 0;
-                    var txt = document.getElementById("frontlines").textContent;
-                    var speed = 50;
-                    function typeWriter() {                
-                    if (i < txt.length) {
-                        document.getElementById("demo").textContent += txt.charAt(i);
-                        i++;
-                        setTimeout(typeWriter, speed);
-                    }
-                    }
-                    </script>-->
-                </div>
-              </div>
-          </div>
-        </div>
-      </header>
-    </main>
-    <!-- Footer-->
-    <footer class="bg-white py-5 mt-auto">
-      <div class="container px-5">
-        <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-          <div class="col-auto">
-            <div class="small m-0">
-              <a href="https://www.linkedin.com/in/marljonson/" style="text-decoration:none">linkedin</a> · <a href="https://github.com/marljonson" style="text-decoration:none">github</a> · <a href="https://www.instagram.com/marljonson/" style="text-decoration:none">instagram</a> · <a href="https://www.youtube.com/@marljonson" style="text-decoration:none">youtube</a> · <a href="mailto:marl.jonson@comcast.net" style="text-decoration:none">contact</a>
+            <div>
+                <img src="/assets/jellyfish.webp" style="height: 170px;">
             </div>
-          </div>
-          <div class="col-auto">
-            <div class="small m-0">&copy; 2024 Marl Jonson. All rights reserved.</div>
-          </div>
         </div>
-      </div>
-    </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-  </body>
+    </div>
+    <div class="card">
+        <div class="subtitle">
+            about
+        </div>
+        <div class="text">
+            As an intern at Bay Area Rapid Transit and an ambassador for the SJSU Responsible Computing Club, I work with driven groups to devise transportation solutions and teach about computing ethics. My interests lie in data analytics, enterprise software engineering, pop music, and business logistics.
+        </div>
+    </div>
+    <div class="card">
+        <div class="subtitle">
+            experience
+        </div>
+        <div class="text">
+            <div class="subtitle-2" style="color: #7787DA; padding-top: 0.55rem;">
+                2025
+            </div>
+            planning intern → BART
+            <br>
+            product operations specialist → SJSU Product Management Club
+            <br>
+            database team intern → Matthew Quevedo for District 3
+            <br>
+            event planning & public relations officer → SJSU Software & Computer Engineering Society
+            <br>
+            program management ambassador → SJSU Responsible Computing Club
+            <br>
+            <br>
+            <div class="subtitle-2" style="color: #C093DE">
+                2024
+            </div>
+            computational chemistry research extern → The Molecular Sciences Software Institute
+            <br>
+            research assistant → SJSU College of Engineering
+            <br>
+        </div>
+    </div>
+    <div class="card">
+        <br>
+        <div>
+            <img src="/assets/bart.png" style="width: 375px;">
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <div class="subtitle">
+            projects
+        </div>
+        <div class="text">
+            <div class="subtitle-2" style="color: #13BD95; padding-top: 0.55rem;">
+                individual
+            </div>
+            listenade.com → JavaScript + HTML/CSS + Git + Google Drawings
+            <br>
+            <br>
+            <div class="subtitle-2" style="color: #c0bd0d">
+                with hackathon group
+            </div>
+            nooknotes, file manager → Gemini API + Auth0 + MongoDB + Node.js + React.js + HTML/CSS + Git
+            <br>
+            draftly, resume builder → OpenAI API + Node.js + React.js + HTML/CSS + Git
+            <br>
+        </div>
+    </div>
+    <div class="card">
+        <div class="subtitle">
+            writing
+        </div>
+        <div class="text">
+            <div class="subtitle-2" style="color: #F38A49; padding-top: 0.55rem;">
+                computers, ethics and society
+            </div>
+            global internet governance → April 2025
+            <br>
+            <br>
+            <div class="subtitle-2" style="color: #d75b6a">
+                technical writing for computer science
+            </div>
+            film demographics analysis project proposal → April 2025
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="card">
+        <div class="two-split">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>
+                <div>
+                    <a href="/assets/Resume (Marl Jonson).pdf">
+                        <img src="/assets/alice.png" style="width: 175px;">
+                    </a>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <div style="display: flex; flex-direction: row; justify-content: center; justify-content: center; gap: 0.5rem; padding-top: 0.5rem;">
+            <a href="https://www.linkedin.com/in/marl-jonson/"><img src="/assets/linkedin.png" style="height: 32px;"></a>
+            <a href="https://github.com/marljonson"><img src="/assets/github.png" style="height: 32px;"></a>
+            <a href="https://instagram.com/marljonson/"><img src="/assets/instagram.png" style="height: 32px;"></a>
+        </div>
+    </div>
+    <br>
+    <br>
+</body>
 </html>
