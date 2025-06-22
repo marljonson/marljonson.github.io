@@ -1,11 +1,4 @@
-@font-face {
-    font-family: "acumin-variable";
-    src: url("https://use.typekit.net/af/cd27bb/0000000000000000774be2a6/30/l?primer=5ae6b4fcd8792df98bdb58ed7ac9cb4f4faf877ed761ae9b1823426301d17b70&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/cd27bb/0000000000000000774be2a6/30/d?primer=5ae6b4fcd8792df98bdb58ed7ac9cb4f4faf877ed761ae9b1823426301d17b70&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/cd27bb/0000000000000000774be2a6/30/a?primer=5ae6b4fcd8792df98bdb58ed7ac9cb4f4faf877ed761ae9b1823426301d17b70&fvd=n4&v=3") format("opentype");
-    font-display: auto;
-    font-style: normal;
-    font-weight: 250;
-    font-stretch: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
 
 img {
     display: block;
@@ -18,15 +11,22 @@ img {
 }
 
 * {
-    font-family: acumin-variable;
     font-size: 1.5rem;
     line-height: 1.25rem;
 }
 
+body {
+    font-family: "Hind", sans-serif;
+    background-color: black;
+}
+
 .card {
-    width: 50%;
+    width: 55%;
     margin: auto;
-    padding-bottom: 2rem;
+    padding: 1.5rem;
+    border-top: 1px dashed whitesmoke;
+    border-radius: 0.75rem;
+    gap: 1rem;
 }
 
 .two-split {
@@ -39,31 +39,31 @@ img {
 
 .title {
     font-size: 1.5rem;
-    color: black;
+    color: whitesmoke;
     font-weight: lighter;
     padding-bottom: 0.55rem;
 }
 
 .subtitle {
     font-size: 1.1rem;
-    color: black;
+    color: whitesmoke;
     font-weight: lighter;
     padding-bottom: 0.55rem;
 }
 
 .subtitle-2 {
     font-size: 0.85rem;
-    color: black;
+    color: whitesmoke;
     font-weight: lighter;
 }
 
 .text {
     font-size: 0.75rem;
-    color: gray;
+    color: whitesmoke;
     font-weight: normal;
 }
 
-a {
+.text a {
     color: inherit;
     text-decoration: none;
 }
