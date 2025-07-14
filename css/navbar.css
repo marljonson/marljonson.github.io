@@ -1,0 +1,8 @@
+#navbar {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#navbar.loaded {
+    opacity: 1;
+}

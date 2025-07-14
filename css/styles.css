@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@200&display=swap');
 
 img {
     display: block;
@@ -13,10 +13,12 @@ img {
 * {
     font-size: 1.5rem;
     line-height: 1.25rem;
+    font-weight: 200;
 }
 
 body {
-    font-family: "Hind", sans-serif;
+    font-family: "Geist", sans-serif;
+    font-weight: 200;
     color: whitesmoke;
     background-color: black;
     overflow-y: scroll;
@@ -62,7 +64,7 @@ body {
 .text {
     font-size: 0.75rem;
     color: whitesmoke;
-    font-weight: normal;
+    font-weight: 100;
 }
 
 a {
