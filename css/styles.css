@@ -19,7 +19,7 @@ img {
 body {
     font-family: "Noto Sans", sans-serif;
     color: #FFFAF0;
-    background-color: #FFFAF0;
+    background: linear-gradient(35deg, rgb(206, 222, 255) 0%, rgb(255, 249, 234) 75%);
     overflow-y: scroll;
     margin: auto;
 }
