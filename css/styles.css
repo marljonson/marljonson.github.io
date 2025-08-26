@@ -94,3 +94,15 @@ th {
 td {
     font-size: 0.75rem;
 }
+
+p::selection {
+  background-color: transparent;
+}
+
+p {
+  white-space: nowrap;
+}
+
+br {
+  user-select: none;
+}
