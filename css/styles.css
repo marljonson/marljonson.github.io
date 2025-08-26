@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@250&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@325&display=swap');
 
 img {
     display: block;
@@ -17,18 +17,17 @@ img {
 }
 
 body {
-    font-family: "Geist", sans-serif;
-    font-weight: 200;
-    color: whitesmoke;
-    background-color: #2A3439;
+    font-family: "Noto Sans", sans-serif;
+    color: #FFFAF0;
+    background-color: #FFFAF0;
     overflow-y: scroll;
+    margin: auto;
 }
 
 .card {
-    width: 55%;
+    width: 45%;
     margin: auto;
-    padding: 2.25rem;
-    border-top: 1px dashed whitesmoke;
+    padding: 1.25rem;
     border-radius: 1rem;
     gap: 1rem;
 }
@@ -37,34 +36,35 @@ body {
     display: flex;
     flex-direction: row;
     align-items: end;
-    justify-content: space-between;
+    justify-content: center;
     gap: 2rem;
 }
 
 .title {
     font-size: 1.5rem;
-    color: whitesmoke;
+    color: #36454F;
     font-weight: lighter;
     padding-bottom: 0.55rem;
 }
 
 .subtitle {
     font-size: 1.1rem;
-    color: whitesmoke;
+    color: #36454F;
     font-weight: lighter;
     padding-bottom: 0.55rem;
 }
 
 .subtitle-2 {
     font-size: 0.85rem;
-    color: whitesmoke;
+    color: #36454F;
     font-weight: lighter;
 }
 
 .text {
     font-size: 0.75rem;
-    color: whitesmoke;
+    color: #36454F;
     font-weight: 100;
+    padding-bottom: 0.55rem;
 }
 
 a {
