@@ -22,7 +22,24 @@ body {
     color: #FFFAF0;
     background: linear-gradient(315deg, rgb(240, 232, 255) 0%, rgb(255, 251, 240) 75%);
     overflow-y: scroll;
+
     margin: auto;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.homebody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: vertical horizontal;
+}
+
+.homebody > .card {
+    width: 52.5%;
 }
 
 .card {
