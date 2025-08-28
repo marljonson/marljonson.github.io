@@ -21,10 +21,15 @@ body {
     font-family: "Noto Sans", sans-serif;
     color: #FFFAF0;
     background: linear-gradient(315deg, rgb(240, 232, 255) 0%, rgb(255, 251, 240) 75%);
-    overflow-y: hidden;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 
 #homebody {
     margin: auto;
@@ -34,7 +39,7 @@ body {
     align-items: center;
 }
 
-#homebody > div > .card {
+#homebody>div>.card {
     width: 50%;
 }
 
@@ -109,15 +114,15 @@ td {
 }
 
 p::selection {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 p {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 br {
-  user-select: none;
+    user-select: none;
 }
 
 /* Responsive layout for mobile screens */
@@ -140,15 +145,15 @@ br {
         gap: 0rem;
     }
 
-    .two-split > .text {
+    .two-split>.text {
         text-align: center;
     }
 
-    .navbar > * > .text {
+    .navbar>*>.text {
         width: auto;
     }
 
-    .navbar > * > * {
+    .navbar>*>* {
         display: flex;
         flex-direction: column;
         width: min-content;
