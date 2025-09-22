@@ -10,6 +10,15 @@ img {
     -webkit-user-drag: none;
 }
 
+.corner-logo {
+  position: fixed;
+  top: 20px;        /* Change to bottom if you want it in a different corner */
+  left: 20px;       /* Change to right for top-right corner */
+  width: 8rem;      /* Adjust size as needed */
+  height: auto;
+  z-index: 9999;    /* Make sure it's above other elements */
+}
+
 * {
     font-family: 'Noto Sans', sans-serif;
     font-size: 1.25rem;
