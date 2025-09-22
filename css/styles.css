@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@325&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@375&display=swap');
 
 img {
     display: block;
@@ -11,9 +11,10 @@ img {
 }
 
 * {
+    font-family: 'Noto Sans', sans-serif;
     font-size: 1.25rem;
     line-height: 1.25rem;
-    font-weight: 325;
+    font-weight: 375;
 }
 
 body {
@@ -39,7 +40,7 @@ ul {
 }
 
 li {
-    font-family: "Geist", sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-size: 0.95rem;
     padding: 1.5rem 0;
 }
@@ -89,21 +90,21 @@ body::-webkit-scrollbar {
 .title {
     font-size: 1.5rem;
     color: #36454F;
-    font-weight: lighter;
+    font-weight: normal;
     padding-bottom: 0.55rem;
 }
 
 .subtitle {
     font-size: 1.1rem;
     color: #36454F;
-    font-weight: lighter;
+    font-weight: normal;
     padding-bottom: 0.55rem;
 }
 
 .subtitle-2 {
     font-size: 0.85rem;
     color: #36454F;
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 .text {
