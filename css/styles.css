@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@275&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@275&display=swap');
 
 img {
     display: block;
@@ -104,14 +105,13 @@ body::-webkit-scrollbar {
     font-size: 1.5rem;
     color: #1b1201;
     font-weight: bold;
-    text-transform: uppercase;
+    letter-spacing: 0.015rem;
     padding-bottom: 0.55rem;
 }
 
 .subtitle {
     font-size: 1.1rem;
     color: black;
-    font-weight: bold;
     padding-bottom: 0.55rem;
 }
 
