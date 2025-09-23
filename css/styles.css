@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@275&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@275&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@250&display=swap');
 
 img {
     display: block;
@@ -21,14 +20,14 @@ img {
 }
 
 * {
-    font-family: 'Public Sans', sans-serif;
-    font-size: 1.275rem;
+    font-family: 'greycliff-cf', 'Public Sans', sans-serif;
+    font-size: 1.35rem;
     line-height: 1.25rem;
-    font-weight: 275;
+    font-weight: 250;
 }
 
 body {
-    font-family: "Public Sans", sans-serif;
+    font-family: "greycliff-cf", "Public Sans", sans-serif;
     color: #FFFAF0;
     background: linear-gradient(60deg, rgb(222, 240, 255) 0%, rgb(255, 251, 245) 75%);
     overflow-y: scroll;
@@ -50,7 +49,7 @@ ul {
 }
 
 li {
-    font-family: "Public Sans", sans-serif;
+    font-family: "greycliff-cf", "Public Sans", sans-serif;
     font-size: 0.95rem;
     padding: 1.5rem 0;
 }
@@ -103,7 +102,7 @@ body::-webkit-scrollbar {
 
 .title {
     font-size: 1.5rem;
-    color: #1b1201;
+    color: #2b2724;
     font-weight: bold;
     letter-spacing: 0.015rem;
     padding-bottom: 0.55rem;
@@ -111,18 +110,18 @@ body::-webkit-scrollbar {
 
 .subtitle {
     font-size: 1.1rem;
-    color: black;
+    color: #2b2724;
     padding-bottom: 0.55rem;
 }
 
 .subtitle-2 {
     font-size: 0.85rem;
-    color: black;
+    color: #2b2724;
 }
 
 .text {
     font-size: 0.75rem;
-    color: black;
+    color: #2b2724;
     padding-bottom: 0.55rem;
 }
 
