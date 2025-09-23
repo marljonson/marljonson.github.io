@@ -74,18 +74,23 @@ body::-webkit-scrollbar {
 .card {
     width: 55%;
     margin: auto;
-    padding: 1.25rem;
+    padding-bot: 0.25rem;
     border-radius: 1rem;
+    gap: 1rem;
+}
+
+.cardBlogHolder {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
 }
 
 .cardBlog {
     width: 45%;
     margin: auto;
-}
-
-.cardBlog > a {
-    padding: 0.125rem;
+    padding-left: 1.125rem;
+    border-left: 2px solid #2b2724;
 }
 
 .cardBlog > a > .two-split{
@@ -97,7 +102,7 @@ body::-webkit-scrollbar {
     flex-direction: row;
     align-items: end;
     justify-content: space-between;
-    gap: 1.875rem;
+    gap: .875rem;
 }
 
 .title {
