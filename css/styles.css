@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@375&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@275&display=swap');
 
 img {
     display: block;
@@ -12,22 +12,22 @@ img {
 
 .corner-logo {
   position: fixed;
-  top: 20px;        /* Change to bottom if you want it in a different corner */
-  left: 20px;       /* Change to right for top-right corner */
+  top: 3rem;        /* Change to bottom if you want it in a different corner */
+  left: 3rem;       /* Change to right for top-right corner */
   width: 8rem;      /* Adjust size as needed */
   height: auto;
   z-index: 9999;    /* Make sure it's above other elements */
 }
 
 * {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 1.25rem;
-    line-height: 1.25rem;
-    font-weight: 375;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.425rem;
+    line-height: 1.175rem;
+    font-weight: 275;
 }
 
 body {
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     color: #FFFAF0;
     background: linear-gradient(60deg, rgb(222, 240, 255) 0%, rgb(255, 251, 245) 75%);
     overflow-y: scroll;
@@ -49,7 +49,7 @@ ul {
 }
 
 li {
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 0.95rem;
     padding: 1.5rem 0;
 }
@@ -68,7 +68,7 @@ body::-webkit-scrollbar {
 }
 
 #homebody > div > .card {
-    width: 50%;
+    width: 52.5%;
 }
 
 .card {
@@ -84,7 +84,7 @@ body::-webkit-scrollbar {
     margin: auto;
     padding: 1.25rem;
     border-radius: 1rem;
-    border-top: 1px dashed #36454F;
+    border-top: 1px dashed black;
     gap: 1rem;
 }
 
@@ -98,28 +98,27 @@ body::-webkit-scrollbar {
 
 .title {
     font-size: 1.5rem;
-    color: #36454F;
-    font-weight: normal;
+    color: #1b1201;
+    font-weight: bold;
+    text-transform: uppercase;
     padding-bottom: 0.55rem;
 }
 
 .subtitle {
     font-size: 1.1rem;
-    color: #36454F;
-    font-weight: normal;
+    color: black;
+    font-weight: bold;
     padding-bottom: 0.55rem;
 }
 
 .subtitle-2 {
     font-size: 0.85rem;
-    color: #36454F;
-    font-weight: normal;
+    color: black;
 }
 
 .text {
     font-size: 0.75rem;
-    color: #36454F;
-    font-weight: 100;
+    color: black;
     padding-bottom: 0.55rem;
 }
 
@@ -186,5 +185,11 @@ br {
         flex-direction: column;
         width: min-content;
         align-items: center;
+    }
+
+    .corner-logo {
+        position: relative;        
+        width: 0;
+        height: auto;
     }
 }
