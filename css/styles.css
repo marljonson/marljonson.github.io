@@ -29,7 +29,7 @@ img {
 body {
     font-family: "greycliff-cf", "Public Sans", sans-serif;
     color: #FFFAF0;
-    background: linear-gradient(60deg, rgb(222, 240, 255) 0%, rgb(255, 251, 245) 75%);
+    background: linear-gradient(60deg, rgb(240, 212, 159) 0%, rgb(212, 230, 245) 32.5%, rgb(245, 241, 235) 75%);
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
