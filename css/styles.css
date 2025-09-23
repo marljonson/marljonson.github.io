@@ -85,7 +85,7 @@ body::-webkit-scrollbar {
 }
 
 .cardBlog > a {
-    padding: 0.25rem;
+    padding: 0.125rem;
 }
 
 .cardBlog > a > .two-split{
@@ -111,18 +111,19 @@ body::-webkit-scrollbar {
 .subtitle {
     font-size: 1.1rem;
     color: #2b2724;
-    padding-bottom: 0.55rem;
+    padding-bottom: 0.125rem;
 }
 
 .subtitle-2 {
     font-size: 0.85rem;
     color: #2b2724;
+    font-weight: bold;
 }
 
 .text {
     font-size: 0.75rem;
     color: #2b2724;
-    padding-bottom: 0.55rem;
+    padding-bottom: 0.5rem;
 }
 
 a {
