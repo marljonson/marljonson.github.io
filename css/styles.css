@@ -72,7 +72,7 @@ body::-webkit-scrollbar {
 }
 
 .card {
-    width: 45%;
+    width: 55%;
     margin: auto;
     padding: 1.25rem;
     border-radius: 1rem;
@@ -111,13 +111,14 @@ body::-webkit-scrollbar {
 .subtitle {
     font-size: 1.1rem;
     color: #2b2724;
-    padding-bottom: 0.125rem;
+    padding-bottom: 0.55rem;
 }
 
 .subtitle-2 {
     font-size: 0.85rem;
     color: #2b2724;
     font-weight: bold;
+    padding-bottom: 0.55rem;
 }
 
 .text {
@@ -155,6 +156,21 @@ p {
 br {
     user-select: none;
 }
+
+.navbar {
+    will-change: transform, opacity; /* For smooth transitions */
+}
+
+#navbar {
+    min-height: 60px; /* Adjust based on the height of your navbar */
+    transition: min-height 0.3s ease;
+    visibility: hidden; /* Hide until loaded */
+}
+
+#navbar.loaded {
+    visibility: visible;
+}
+
 
 /* Responsive layout for mobile screens */
 @media (max-width: 768px) {
