@@ -171,6 +171,23 @@ br {
     visibility: visible;
 }
 
+body {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+body.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Add this class after page loads */
+body.fade-in {
+    opacity: 1;
+}
+
 
 /* Responsive layout for mobile screens */
 @media (max-width: 768px) {

@@ -5,3 +5,7 @@ fetch("/navbar.html")
         navbar.innerHTML = html;
         navbar.classList.add("loaded");
     });
+
+window.addEventListener("DOMContentLoaded", () => {
+    document.body.classList.add("fade-in");
+});
