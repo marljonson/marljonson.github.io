@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@275&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@275&display=swap');
 
 img {
     display: block;
@@ -20,14 +20,14 @@ img {
 }
 
 * {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.425rem;
-    line-height: 1.175rem;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.275rem;
+    line-height: 1.25rem;
     font-weight: 275;
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Public Sans", sans-serif;
     color: #FFFAF0;
     background: linear-gradient(60deg, rgb(222, 240, 255) 0%, rgb(255, 251, 245) 75%);
     overflow-y: scroll;
@@ -49,7 +49,7 @@ ul {
 }
 
 li {
-    font-family: "Inter", sans-serif;
+    font-family: "Public Sans", sans-serif;
     font-size: 0.95rem;
     padding: 1.5rem 0;
 }
