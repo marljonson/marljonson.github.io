@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    border: 2px dashed black;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.template-article {
+    width: 50vw;
+    min-height: 80vh;
+}
+
+.header > .title {
+    width: 75%;
+    font-size: 28px;
+    text-align: center;
+}
+
+.header > .subtitle {
+    width: 75%;
+    text-align: center;
+}

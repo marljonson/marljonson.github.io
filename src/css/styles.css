@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@250&display=swap');
+
+img {
+    display: block;
+    width: auto;
+    height: auto;
+    align-items: center;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.corner-logo {
+  position: fixed;
+  top: 3rem;        /* Change to bottom if you want it in a different corner */
+  left: 3rem;       /* Change to right for top-right corner */
+  width: 8rem;      /* Adjust size as needed */
+  height: auto;
+  z-index: 9999;    /* Make sure it's above other elements */
+}
+
+* {
+    font-family: 'greycliff-cf', 'Public Sans', sans-serif;
+    font-size: 1.35rem;
+    line-height: 1.25rem;
+    font-weight: 250;
+}
+
+body {
+    font-family: "greycliff-cf", "Public Sans", sans-serif;
+    color: #FFFAF0;
+    background: linear-gradient(60deg, rgb(250, 242, 229) 0%, rgb(232, 240, 255) 22.5%, rgb(255, 251, 255) 77.5%);
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    min-height: 97.5vh;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 0.75rem;
+}
+
+.no-indent {
+    list-style-type: none; /* removes bullets */
+    padding-left: 0;       /* removes left padding */
+    margin-left: 0;        /* removes left margin */
+}
+
+li {
+    font-family: "greycliff-cf", "Public Sans", sans-serif;
+    font-size: 0.95rem;
+    padding: 1.5rem 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+#homebody {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#homebody > div > .card {
+    width: 52.5%;
+}
+
+.card {
+    width: 55%;
+    margin: auto;
+    padding-bot: 0.25rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.cardBlogHolder {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.cardBlog {
+    width: 45%;
+    margin: auto;
+    padding-left: 1.125rem;
+    border-left: 2px solid #2b2724;
+}
+
+.cardBlog > a > .two-split{
+    gap: 0.5rem;
+}
+
+.two-split {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    gap: .875rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #2b2724;
+    font-weight: bold;
+    letter-spacing: 0.015rem;
+    padding-bottom: 0.55rem;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #2b2724;
+    padding-bottom: 0.55rem;
+}
+
+.subtitle-2 {
+    font-size: 0.85rem;
+    color: #2b2724;
+    font-weight: bold;
+    padding-bottom: 0.55rem;
+}
+
+.text {
+    font-size: 0.75rem;
+    color: #2b2724;
+    padding-bottom: 0.5rem;
+}
+
+a {
+    font-size: 0.75rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+table {
+    border-spacing: 0.5rem 0;
+}
+
+th {
+    font-size: 0.75rem;
+}
+
+td {
+    font-size: 0.75rem;
+}
+
+p::selection {
+    background-color: transparent;
+}
+
+p {
+    white-space: nowrap;
+}
+
+br {
+    user-select: none;
+}
+
+.navbar {
+    will-change: transform, opacity; /* For smooth transitions */
+}
+
+#navbar {
+    min-height: 60px; /* Adjust based on the height of your navbar */
+    transition: min-height 0.8s ease;
+    visibility: hidden; /* Hide until loaded */
+}
+
+#navbar.loaded {
+    visibility: visible;
+}
+
+body {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease;
+}
+
+body.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Responsive layout for mobile screens */
+@media (max-width: 768px) {
+    * {
+        font-size: 1.75em;
+        text-align: center;
+    }
+
+    .card {
+        width: 85%;
+        margin: auto;
+    }
+
+    .two-split {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        gap: 0rem;
+    }
+
+    .two-split>.text {
+        text-align: center;
+    }
+
+    .navbar>*>.text {
+        width: auto;
+    }
+
+    .navbar>*>* {
+        display: flex;
+        flex-direction: column;
+        width: min-content;
+        align-items: center;
+    }
+
+    .corner-logo {
+        position: relative;        
+        width: 0;
+        height: auto;
+    }
+}
