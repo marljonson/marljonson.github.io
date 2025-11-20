@@ -26,7 +26,7 @@ img {
     font-weight: 250;
 }
 
-body {
+html {
     font-family: "greycliff-cf", "Public Sans", sans-serif;
     color: #FFFAF0;
     background: linear-gradient(60deg, rgb(250, 242, 229) 0%, rgb(232, 240, 255) 22.5%, rgb(255, 251, 255) 77.5%);
@@ -74,7 +74,7 @@ body::-webkit-scrollbar {
 .card {
     width: 55%;
     margin: auto;
-    padding-bot: 0.25rem;
+    padding-bottom: 0.25rem;
     border-radius: 1rem;
     gap: 1rem;
 }
@@ -176,13 +176,13 @@ br {
     visibility: visible;
 }
 
-body {
+.content {
     opacity: 0;
     transform: translateY(10px);
     transition: opacity 0.8s ease-in-out, transform 0.8s ease;
 }
 
-body.fade-in {
+.content.fade-in {
     opacity: 1;
     transform: translateY(0);
 }
