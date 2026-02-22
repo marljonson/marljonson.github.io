@@ -29,7 +29,7 @@ img {
 body {
     font-family: "greycliff-cf", "Public Sans", sans-serif;
     color: black;
-    background: white;
+    background: #e5e5e3;
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
