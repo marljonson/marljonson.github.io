@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@250&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500&display=swap');
 
 img {
     display: block;
@@ -21,15 +21,15 @@ img {
 
 * {
     font-family: 'greycliff-cf', 'Public Sans', sans-serif;
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     line-height: 1.25rem;
-    font-weight: 250;
+    font-weight: 500;
 }
 
 body {
     font-family: "greycliff-cf", "Public Sans", sans-serif;
-    color: #FFFAF0;
-    background: linear-gradient(60deg, rgb(250, 242, 229) 0%, rgb(232, 240, 255) 22.5%, rgb(255, 251, 255) 77.5%);
+    color: black;
+    background: white;
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
@@ -74,7 +74,7 @@ body::-webkit-scrollbar {
 .card {
     width: 55%;
     margin: auto;
-    padding-bot: 0.25rem;
+    padding-bottom: 0.25rem;
     border-radius: 1rem;
     gap: 1rem;
 }
@@ -107,7 +107,7 @@ body::-webkit-scrollbar {
 
 .title {
     font-size: 1.5rem;
-    color: #2b2724;
+    color: black;
     font-weight: bold;
     letter-spacing: 0.015rem;
     padding-bottom: 0.55rem;
@@ -115,20 +115,20 @@ body::-webkit-scrollbar {
 
 .subtitle {
     font-size: 1.1rem;
-    color: #2b2724;
+    color: black;
     padding-bottom: 0.55rem;
 }
 
 .subtitle-2 {
     font-size: 0.85rem;
-    color: #2b2724;
+    color: black;
     font-weight: bold;
     padding-bottom: 0.55rem;
 }
 
 .text {
     font-size: 0.75rem;
-    color: #2b2724;
+    color: black;
     padding-bottom: 0.5rem;
 }
 
